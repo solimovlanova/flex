@@ -1,18 +1,21 @@
-
-#contries{
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#countries{
     display: flex;
-    width: 100vw;
+    width: 100%;
 }
 
 #it{
     display: flex;
-    width: 50vw;
+    width: 50%
 }
 
 #aze{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 50%;
 }
 
 #green1{
@@ -34,16 +37,16 @@
 
 #blue{
     background-color: blue;
-    width: 100%;
+    width: 99%;
     height: 33.33vh;
 }
 #red2{
     background-color: red;
-    width: 100%;
+    width: 99%;
     height: 33.33vh;
 }
 #green2{
     background-color: green;
-    width: 100%;
+    width: 99%;
     height: 33.33vh;
 }
